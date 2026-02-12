@@ -49,55 +49,9 @@ A full-stack concert ticket booking application built with NextJS (frontend) and
 
 ## Architecture Overview
 
-### Frontend Architecture (NextJS)
+<img width="545" height="705" alt="current-2026-02-12-2338" src="https://github.com/user-attachments/assets/abbdc3bf-f498-4dad-ace6-825a3655e9ae" />
 
-```
-frontend/
-├── app/
-│   ├── components/
-│   │   └── Sidebar.tsx          
-│   ├── user/
-│   │   └── page.tsx             # User page booking
-│   ├── history/
-│   │   └── page.tsx             # Admin booking history view
-│   ├── page.tsx                 # Admin dashboard (main page)
-│   ├── layout.tsx               # Root layout
-│   └── globals.css              # Global css
-└── package.json
-```
 
-### Backend Architecture (NestJS)
-
-```
-backend/
-├── src/
-│   ├── concerts/
-│   │   ├── dto/
-│   │   │   └── create-concert.dto.ts      # Validation schema
-│   │   ├── entities/
-│   │   │   └── concert.entity.ts          # Database model
-│   │   ├── concerts.controller.ts         # HTTP endpoints
-│   │   ├── concerts.service.ts            # Business logic
-│   │   ├── concerts.service.spec.ts       # Unit tests
-│   │   └── concerts.module.ts             # Module configuration
-│   ├── reservations/
-│   │   ├── dto/
-│   │   ├── entities/
-│   │   ├── reservations.controller.ts
-│   │   ├── reservations.service.ts
-│   │   ├── reservations.service.spec.ts
-│   │   └── reservations.module.ts
-│   ├── users/
-│   │   ├── dto/
-│   │   ├── entities/
-│   │   ├── users.controller.ts
-│   │   ├── users.service.ts
-│   │   ├── users.service.spec.ts
-│   │   └── users.module.ts
-│   ├── app.module.ts                      # Root module
-│   └── main.ts                            # Application entry point
-└── concert-tickets.db                     # SQLite database (auto-generated)
-```
 
 **Database Schema:**
 ```
