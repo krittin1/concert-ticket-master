@@ -424,3 +424,7 @@ Both frontend and backend support hot reload in development mode:
 - **ESLint**: Configured for both frontend and backend
 - **Prettier**: Code formatting rules
 - **Testing**: Unit tests for all services
+
+## Future System Design
+
+<img width="2392" height="1351" alt="Untitled-2026-02-12-2338" src="https://github.com/user-attachments/assets/f1011f03-86f9-41a3-9d3f-0a44b5f7dd29" />
