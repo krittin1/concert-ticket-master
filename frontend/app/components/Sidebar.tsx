@@ -73,7 +73,7 @@ export default function Sidebar({ isAdmin = true }: SidebarProps) {
                   href="/history"
                   className={`block px-4 py-3 rounded-lg transition-colors ${
                     pathname === '/history'
-                      ? 'bg-purple-600 text-white'
+                      ? 'bg-blue-600 text-white'
                       : 'text-gray-700 hover:bg-gray-200'
                   }`}
                 >
