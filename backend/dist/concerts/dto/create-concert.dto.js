@@ -32,6 +32,7 @@ __decorate([
 __decorate([
     (0, class_validator_1.IsNumber)({}, { message: 'Total seats must be a number' }),
     (0, class_validator_1.Min)(1, { message: 'Total seats must be at least 1' }),
+    (0, class_validator_1.MaxLength)(50000, { message: 'Total seats must not exceed 50000' }),
     __metadata("design:type", Number)
 ], CreateConcertDto.prototype, "totalSeats", void 0);
 //# sourceMappingURL=create-concert.dto.js.map

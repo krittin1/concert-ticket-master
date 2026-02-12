@@ -13,5 +13,6 @@ export class CreateConcertDto {
 
   @IsNumber({}, { message: 'Total seats must be a number' })
   @Min(1, { message: 'Total seats must be at least 1' })
+  @MaxLength(50000, { message: 'Total seats must not exceed 50000' })
   totalSeats: number;
 }

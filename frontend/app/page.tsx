@@ -330,12 +330,11 @@ export default function Home() {
                       name="concertName"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
                       placeholder="Enter concert name"
                       required
                     />
                   </div>
-
                   <div>
                     <label htmlFor="totalSeats" className="block text-sm font-medium text-gray-700 mb-2">
                       Total of Seats
@@ -346,7 +345,7 @@ export default function Home() {
                       name="totalSeats"
                       value={formData.totalSeats}
                       onChange={(e) => setFormData({ ...formData, totalSeats: e.target.value })}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
                       placeholder="Enter total number of seats"
                       required
                       min="1"
@@ -364,7 +363,7 @@ export default function Home() {
                     rows={5}
                     value={formData.description}
                     onChange={(e) => setFormData({ ...formData, description: e.target.value })}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
                     placeholder="Enter concert description"
                     required
                   />
