@@ -2,6 +2,8 @@
 
 A full-stack concert ticket booking application built with NextJS (frontend) and NestJS (backend). The application allows admins to manage concerts and users to book tickets.
 
+<img width="950" height="476" alt="image" src="https://github.com/user-attachments/assets/579a4d77-e2f5-45c8-b28b-1b88d584dead" />
+
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
