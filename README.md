@@ -317,16 +317,16 @@ curl -X PATCH http://localhost:4000/reservations/1/cancel \
 
 **Jest**
 
-## Business Rules
+## Business Criteria
 
-### Reservation Rules
+### Reservation
 1. **One Seat Per User**: Each user can reserve maximum 1 seat per concert
 2. **No Duplicate Reservations**: Users cannot reserve the same concert multiple times
 3. **Seat Availability Check**: Reservations fail if concert is fully booked
 4. **Cancellation Ownership**: Users can only cancel their own reservations
 5. **Active Status Only**: Only active reservations count toward seat limits
 
-### Concert Management Rules
+### Concert
 1. **Deletion Restrictions**: Concerts can only be deleted if they have no active reservations
 2. **Cancelled Reservations**: Concerts with only cancelled reservations can be deleted
 3. **Seat Tracking**: Reserved seats automatically increment/decrement with bookings/cancellations
